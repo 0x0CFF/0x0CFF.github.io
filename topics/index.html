@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    
+    
+        <link rel="stylesheet" type="text/css" href=https://0x0cff.github.io/css/Framework/Class/Grade00/Base.css>
+        <link rel="stylesheet" type="text/css" href=https://0x0cff.github.io/css/Partials/Viewer.css>
+    
+    <link rel="stylesheet" type="text/css" href=https://0x0cff.github.io/css/Framework/Class/Grade01/A.css>
+
+    <link rel="stylesheet" type="text/css" href=https://0x0cff.github.io/css/Framework/Class/Grade02/A0.css>
+
+    <link rel="stylesheet" type="text/css" href=https://0x0cff.github.io/css/Framework/Class/Grade03/A01.css>
+
+    <link rel="stylesheet" type="text/css" href=https://0x0cff.github.io/css/Framework/Object/A01-Topics.css>
+
+    
+    <title>个人专栏</title>
+
+    <link rel="shortcut icon" href="#"/>
+</head>
+<body>
+    
+    <div class="app">
+        
+<div class="sidebar">
+    <div class="authorView">
+        <div class="infoCard" onclick="window.open('/','_self')">
+            <img src="../../about/assets/headshot.webp" alt="">
+            <div class="introduce">
+                
+                <div class="name">
+                    <p>0x0CFF</p>
+                </div>
+                <div class="profession">
+                    <p>编程爱好者、宅</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dataView">
+        <div class="statistics">
+            <div class="item days">
+                <div class="data" id="dValue"></div>
+                <div class="label" id="startDate" startDate="2023-01-01T00:00:00.00+08:00">Days</div>
+            </div>
+            <div class="item contents">
+                <div class="data"></div>
+                <div class="label">Contents</div>
+            </div>
+            <div class="item friends">
+                
+                <div class="data">3</div>
+                <div class="label">Friends</div>
+            </div>
+        </div>
+        <div class="hotmap">
+            <div class="background">
+                <div class="pointsBar"></div>
+                <div class="monthsBar"></div>
+            </div>
+        </div>
+        <div class="date" style="display:none;">
+            <!-- <div class="pointDate">2023/01/01</div>
+            <div class="pointDate">2023/01/02</div> -->
+            
+                
+                
+                    <div class="pointDate">2024&#x2F;12&#x2F;13</div>
+                
+                    <div class="pointDate">2024&#x2F;12&#x2F;12</div>
+                
+                    <div class="pointDate">2024&#x2F;12&#x2F;11</div>
+                
+                    <div class="pointDate">2024&#x2F;12&#x2F;10</div>
+                
+                    <div class="pointDate">2024&#x2F;12&#x2F;09</div>
+                
+                    <div class="pointDate">2024&#x2F;12&#x2F;09</div>
+                
+                    <div class="pointDate">2024&#x2F;12&#x2F;09</div>
+                
+                    <div class="pointDate">2024&#x2F;11&#x2F;29</div>
+                
+                    <div class="pointDate">2024&#x2F;11&#x2F;18</div>
+                
+                    <div class="pointDate">2024&#x2F;11&#x2F;09</div>
+                
+                    <div class="pointDate">2024&#x2F;10&#x2F;17</div>
+                
+                    <div class="pointDate">2024&#x2F;10&#x2F;01</div>
+                
+                    <div class="pointDate">2024&#x2F;09&#x2F;24</div>
+                
+                    <div class="pointDate">2024&#x2F;08&#x2F;06</div>
+                
+                    <div class="pointDate">2024&#x2F;07&#x2F;15</div>
+                
+                    <div class="pointDate">2024&#x2F;07&#x2F;07</div>
+                
+                    <div class="pointDate">2024&#x2F;07&#x2F;07</div>
+                
+                    <div class="pointDate">2024&#x2F;04&#x2F;23</div>
+                
+                    <div class="pointDate">2023&#x2F;08&#x2F;31</div>
+                
+                    <div class="pointDate">2023&#x2F;08&#x2F;27</div>
+                
+                    <div class="pointDate">2023&#x2F;08&#x2F;17</div>
+                
+                    <div class="pointDate">2023&#x2F;08&#x2F;15</div>
+                
+                    <div class="pointDate">2023&#x2F;07&#x2F;12</div>
+                
+                    <div class="pointDate">2023&#x2F;03&#x2F;05</div>
+                
+                    <div class="pointDate">2023&#x2F;02&#x2F;09</div>
+                
+                    <div class="pointDate">2023&#x2F;01&#x2F;30</div>
+                
+                    <div class="pointDate">2023&#x2F;01&#x2F;22</div>
+                
+                    <div class="pointDate">2023&#x2F;01&#x2F;18</div>
+                
+                    <div class="pointDate">2023&#x2F;01&#x2F;14</div>
+                
+                    <div class="pointDate">2023&#x2F;01&#x2F;06</div>
+                
+                    <div class="pointDate">2023&#x2F;01&#x2F;01</div>
+                
+                    <div class="pointDate">2022&#x2F;12&#x2F;04</div>
+                
+                    <div class="pointDate">2022&#x2F;11&#x2F;20</div>
+                
+                    <div class="pointDate">2022&#x2F;09&#x2F;26</div>
+                
+                    <div class="pointDate">2022&#x2F;09&#x2F;25</div>
+                
+                    <div class="pointDate">1997&#x2F;08&#x2F;06</div>
+                
+            
+
+            
+                
+                
+            
+
+            
+
+            
+        </div>
+    </div>
+    <div class="menuView">
+        
+            <div class="menu creation">
+                <div class="label" onclick="shrinkOptions(this)">
+                    <label for="">创作内容</label>
+                    <svg weight="12px" height="12px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                </div>
+                <div class="options" style="overflow: hidden; transition: height 0.2s;">
+                    
+                        
+                        <div class="option ramblings" pageTotal=36 onclick="window.open('https://0x0cff.github.io/ramblings/','_self')">
+                            <div class="prefix">
+                                <svg weight="24px" height="24px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
+                                </svg>
+                                <p>日常随笔</p>
+                            </div>
+                            <div class="amount">36</div>
+                        </div>
+                    
+                    
+                        
+                        <div class="option posts" pageTotal=0 onclick="window.open('https://0x0cff.github.io/posts/','_self')">
+                            <div class="prefix">
+                                <svg weight="24px" height="24px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+                                </svg>
+                                <p>个人文章</p>
+                            </div>
+                            <div class="amount">0</div>
+                        </div>
+                    
+                    
+                    
+                </div>
+            </div>
+        
+        
+        <div class="menu other">
+            <div class="label" onclick="shrinkOptions(this)">
+                <label for="">更多内容</label>
+                <svg weight="12px" height="12px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>
+            </div>
+            <div class="options" style="overflow: hidden; transition: height 0.2s;">
+                <div class="option friends" onclick="window.open('https://0x0cff.github.io/friends/','_self')">
+                    <div class="prefix">
+                        <svg weight="24px" height="24px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                          <path stroke-linecap="round" d="M16.5 12a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 10-2.636 6.364M16.5 12V8.25" />
+                        </svg>
+                        <p>友情链接</p>
+                    </div>
+                </div>
+                <div class="option about" onclick="window.open('https://0x0cff.github.io/about/','_self')">
+                    <div class="prefix">
+                        <svg weight="24px" height="24px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z" />
+                        </svg>
+                        <p>关于本人</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="separator"></div>
+    <div class="iconView">
+        <div class="icon" onclick="window.open('/','_self')">
+            <svg weight="24px" height="24px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"></path>
+            </svg>
+        </div>
+        <div class="icon" onclick="alert('该功能正在开发中')">
+            <svg weight="24px" height="24px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z"></path>
+            </svg>
+        </div>
+    </div>
+</div>
+
+        
+    
+    
+
+    <div class="main">
+        <div class="container">
+            
+<div class="navbar">
+    <div class="left">
+        <div class="label" onclick="showSidebarDrawer()">
+            <svg weight="24px" height="24px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12H12m-8.25 5.25h16.5" />
+            </svg>
+            <p>个人专栏</p>
+        </div>
+    </div>
+    <div class="right">
+    </div>
+</div>
+
+            
+<div class="content">
+    
+        <div class="cardGroup">
+            
+            
+                
+                
+                <!-- <h1><a href="https:&#x2F;&#x2F;0x0cff.github.io&#x2F;topics&#x2F;Helix&#x2F;">Helix 完全指南</a></h1> -->
+                
+                
+                
+                
+                <!-- <a href="https:&#x2F;&#x2F;0x0cff.github.io&#x2F;topics&#x2F;Helix&#x2F;01&#x2F;01-jie-shao-an-zhuang&#x2F;">介绍 &amp; 安装</a> -->
+                
+                
+                
+                    
+                    
+                    
+                
+                    
+                    
+                    
+                
+                    
+                    
+                    
+                
+                    
+                    
+                    
+                
+                <div class="card" onclick="window.open('https://0x0cff.github.io/topics/Helix/01/01-jie-shao-an-zhuang/')">
+                    <div class="imgBox">
+                        <img src="/topics/Helix/01/01-jie-shao-an-zhuang/assets/cover.webp" alt="">
+                        <div class="mask">
+                            <div class="stats">
+                                <div class="situation">
+                                    
+                                        <svg weight="16px" height="16px" color="#aebbda" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" class="w-6 h-6">
+                                            <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
+                                        </svg>
+                                    
+                                    <p>更新中</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="topicMsg">
+                        <div class="subtitle">
+                            <p>共 10 章节</p>
+                        </div>
+                        <div class="title">
+                            <p>Helix 完全指南</p>
+                        </div>
+                    </div>
+                    <div class="substance">
+                        <img class="lazyImage" src="/image/loading/round.webp" data-src="../../about/assets/headshot.webp" alt="">
+                        <div class="viewAll">
+                            <p>View All</p>
+                            <svg weight="24px" height="24px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <!-- <p>[[object], [object]]</p>
+                <p>/topics/Helix/assets/cover.webp</p> -->
+            
+                
+                
+                <!-- <h1><a href="https:&#x2F;&#x2F;0x0cff.github.io&#x2F;topics&#x2F;Zola&#x2F;">Zola：静态博客站点的搭建与开发</a></h1> -->
+                
+                
+                
+                
+                <!-- <a href="https:&#x2F;&#x2F;0x0cff.github.io&#x2F;topics&#x2F;Zola&#x2F;01&#x2F;di-yi-jie&#x2F;">Zola 简介</a> -->
+                
+                
+                
+                    
+                    
+                    
+                
+                    
+                    
+                    
+                
+                <div class="card" onclick="window.open('https://0x0cff.github.io/topics/Zola/01/di-yi-jie/')">
+                    <div class="imgBox">
+                        <img src="/topics/Zola/01/di-yi-jie/assets/cover.webp" alt="">
+                        <div class="mask">
+                            <div class="stats">
+                                <div class="situation">
+                                    
+                                        <svg weight="16px" height="16px" color="#aebbda" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" class="w-6 h-6">
+                                            <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
+                                        </svg>
+                                    
+                                    <p>更新中</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="topicMsg">
+                        <div class="subtitle">
+                            <p>共 3 章节</p>
+                        </div>
+                        <div class="title">
+                            <p>Zola：静态博客站点的搭建与开发</p>
+                        </div>
+                    </div>
+                    <div class="substance">
+                        <img class="lazyImage" src="/image/loading/round.webp" data-src="../../about/assets/headshot.webp" alt="">
+                        <div class="viewAll">
+                            <p>View All</p>
+                            <svg weight="24px" height="24px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <!-- <p>[[object], [object]]</p>
+                <p>/topics/Zola/assets/cover.webp</p> -->
+            
+                
+                
+                <!-- <h1><a href="https:&#x2F;&#x2F;0x0cff.github.io&#x2F;topics&#x2F;Arch Linux&#x2F;">Arch Linux 完全指南</a></h1> -->
+                
+                
+                
+                
+                <!-- <a href="https:&#x2F;&#x2F;0x0cff.github.io&#x2F;topics&#x2F;Arch Linux&#x2F;01&#x2F;01-linux-jie-shao&#x2F;">Linux 介绍</a> -->
+                
+                
+                
+                    
+                    
+                    
+                
+                    
+                    
+                    
+                
+                    
+                    
+                    
+                
+                <div class="card" onclick="window.open('https://0x0cff.github.io/topics/Arch Linux/01/01-linux-jie-shao/')">
+                    <div class="imgBox">
+                        <img src="/topics/Arch Linux/01/01-linux-jie-shao/assets/cover.webp" alt="">
+                        <div class="mask">
+                            <div class="stats">
+                                <div class="situation">
+                                    
+                                        <svg weight="16px" height="16px" color="#aebbda" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" class="w-6 h-6">
+                                            <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
+                                        </svg>
+                                    
+                                    <p>更新中</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="topicMsg">
+                        <div class="subtitle">
+                            <p>共 9 章节</p>
+                        </div>
+                        <div class="title">
+                            <p>Arch Linux 完全指南</p>
+                        </div>
+                    </div>
+                    <div class="substance">
+                        <img class="lazyImage" src="/image/loading/round.webp" data-src="../../about/assets/headshot.webp" alt="">
+                        <div class="viewAll">
+                            <p>View All</p>
+                            <svg weight="24px" height="24px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <!-- <p>[[object], [object]]</p>
+                <p>/topics/Arch Linux/assets/cover.webp</p> -->
+            
+                
+                
+                <!-- <h1><a href="https:&#x2F;&#x2F;0x0cff.github.io&#x2F;topics&#x2F;Markdown&#x2F;">Markdown 编辑器和博客平台兼顾的产品</a></h1> -->
+                
+                
+                
+                
+                <!-- <a href="https:&#x2F;&#x2F;0x0cff.github.io&#x2F;topics&#x2F;Markdown&#x2F;A&#x2F;di-yi-jie&#x2F;">第一章第一节</a> -->
+                
+                
+                
+                    
+                    
+                    
+                
+                    
+                    
+                    
+                
+                <div class="card" onclick="window.open('https://0x0cff.github.io/topics/Markdown/A/di-yi-jie/')">
+                    <div class="imgBox">
+                        <img src="/topics/Markdown/A/di-yi-jie/assets/cover.webp" alt="">
+                        <div class="mask">
+                            <div class="stats">
+                                <div class="situation">
+                                    
+                                        <svg weight="16px" height="16px" color="#aebbda" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" class="w-6 h-6">
+                                            <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
+                                        </svg>
+                                    
+                                    <p>更新中</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="topicMsg">
+                        <div class="subtitle">
+                            <p>共 5 章节</p>
+                        </div>
+                        <div class="title">
+                            <p>Markdown 编辑器和博客平台兼顾的产品</p>
+                        </div>
+                    </div>
+                    <div class="substance">
+                        <img class="lazyImage" src="/image/loading/round.webp" data-src="../../about/assets/headshot.webp" alt="">
+                        <div class="viewAll">
+                            <p>View All</p>
+                            <svg weight="24px" height="24px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <!-- <p>[[object], [object]]</p>
+                <p>/topics/Markdown/assets/cover.webp</p> -->
+            
+                
+                
+                <!-- <h1><a href="https:&#x2F;&#x2F;0x0cff.github.io&#x2F;topics&#x2F;Linux&#x2F;">Linux 完全指南</a></h1> -->
+                
+                
+                
+                
+                <!-- <a href="https:&#x2F;&#x2F;0x0cff.github.io&#x2F;topics&#x2F;Linux&#x2F;01&#x2F;01-linux-jie-shao&#x2F;">Linux 介绍</a> -->
+                
+                
+                
+                    
+                    
+                    
+                
+                    
+                    
+                    
+                
+                    
+                    
+                    
+                
+                <div class="card" onclick="window.open('https://0x0cff.github.io/topics/Linux/01/01-linux-jie-shao/')">
+                    <div class="imgBox">
+                        <img src="/topics/Linux/01/01-linux-jie-shao/assets/cover.webp" alt="">
+                        <div class="mask">
+                            <div class="stats">
+                                <div class="situation">
+                                    
+                                        <svg weight="16px" height="16px" color="#aebbda" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" class="w-6 h-6">
+                                            <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
+                                        </svg>
+                                    
+                                    <p>更新中</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="topicMsg">
+                        <div class="subtitle">
+                            <p>共 9 章节</p>
+                        </div>
+                        <div class="title">
+                            <p>Linux 完全指南</p>
+                        </div>
+                    </div>
+                    <div class="substance">
+                        <img class="lazyImage" src="/image/loading/round.webp" data-src="../../about/assets/headshot.webp" alt="">
+                        <div class="viewAll">
+                            <p>View All</p>
+                            <svg weight="24px" height="24px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <!-- <p>[[object], [object]]</p>
+                <p>/topics/Linux/assets/cover.webp</p> -->
+            
+        </div>
+    
+</div>
+
+        </div>
+        <div class="footer">
+    <!-- 版权信息 -->
+    <div class="copyright">
+        <p>© 2022-2025 0x0CFF</p>
+    </div>
+    <!-- 驱动信息 -->
+    <div class="powered">
+        <p>
+            Powered by <a href="https://www.getzola.org/" target="_blank">Zola</a> & <a href="https://www.getzola.org/" target="_blank">Echo Theme</a>
+        </p>
+    </div>
+</div>
+
+    </div>
+
+        <div class="widget">
+            
+    
+    <div class="stickyBtn">
+    <div class="scrollTop btn" id="scrollTopBtn" onclick="smoothScrollTop()">
+        <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75" />
+        </svg>
+    </div>
+</div>
+
+<script type="text/javascript">
+    // 只有向下滚动超过 20px 后才会显示按钮, 其他情况按钮隐藏
+    window.onscroll = function() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("scrollTopBtn").style.display = "flex";
+          // console.log("显示按钮");
+        } else {
+          document.getElementById("scrollTopBtn").style.display = "none";
+        }
+    };
+
+    // 平滑回滚到页面顶部
+    function smoothScrollTop(){
+        scrollTo(0,0);
+        // var timer = null;
+        // cancelAnimationFrame(timer);
+        // timer = requestAnimationFrame(function fn(){
+        //     var oTop = document.body.scrollTop || document.documentElement.scrollTop;
+        //     if(oTop > 0){
+        //         document.body.scrollTop = document.documentElement.scrollTop = oTop - 640;
+        //         timer = requestAnimationFrame(fn);
+        //     }else{
+        //         cancelAnimationFrame(timer);
+        //     }
+        // });
+    }
+</script>
+
+    <div class="sidebarDrawerBackdrop" onclick="hideSidebarDrawer()"></div>
+
+
+        </div>
+    </div>
+
+    
+    
+    
+    
+    
+        <script type="text/javascript" src="/js/Partials/jquery-3.6.1.min.js"></script>
+        <script type="text/javascript" src="/js/Partials/lazyImage.js"></script>
+        <script type="text/javascript" src="/js/Partials/viewer.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+        <script type="text/javascript">
+            // 获取所有pre下的span元素
+            const spans = document.querySelectorAll('pre span');
+
+            // 遍历所有span元素
+            for (let i = 0; i < spans.length; i++) {
+                const span = spans[i];
+
+                // 使用正则表达式匹配以#或//开头的内容
+                const pattern = /^#|\/\//;
+                if (pattern.test(span.textContent)) {
+
+                    // 如果匹配成功，设置内联样式
+                    span.style.color = '#808080';
+                }
+            }
+        </script>
+        <!-- <script type="text/javascript">
+            const tables = document.querySelectorAll('table');
+
+            // 遍历所有表格
+            tables.forEach(table => {
+                // 创建一个容器元素
+                const container = document.createElement('div');
+
+                // 将容器元素插入到表格前面
+                table.parentNode.insertBefore(container, table);
+
+                // 将表格移动到容器元素中
+                container.appendChild(table);
+                container.setAttribute('id','tableBox')
+                // 在容器元素上应用overflow-x: scroll属性
+                // container.style.overflowX = 'scroll';
+                // container.style.width = '300px';
+            });
+        </script> -->
+    
+    <script type="text/javascript" src="/js/Framework/Class/Grade01/A/sidebarDrawer.js"></script>
+    <script type="text/javascript" src="/js/Framework/Class/Grade01/A/shrinkOptions.js"></script>
+
+    <script type="text/javascript" src="/js/Framework/Class/Grade02/A0/dataView.js"></script>
+    <script type="text/javascript" src="/js/Framework/Class/Grade02/A0/days.js"></script>
+    <script type="text/javascript" src="/js/Framework/Class/Grade02/A0/contents.js"></script>
+
+
+
+</body>
+</html>

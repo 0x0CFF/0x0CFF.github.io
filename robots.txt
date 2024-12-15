@@ -1,0 +1,21 @@
+# 禁止所有搜索引擎抓取任何内容
+User-agent: *
+Disallow: /
+
+# 允许所有搜索引擎抓取任何内容
+# User-agent: *
+# Disallow:
+
+# User-agent: *
+# Disallow: /
+# Allow: /index
+# Allow: /posts/
+# Disallow: /topics/
+# Disallow: /topics/*/
+# Allow: /topics/*/*/
+
+# 禁止抓取所有 .webp 图片
+Disallow: .webp$
+
+
+Sitemap: https://0x0cff.github.io/sitemap.xml

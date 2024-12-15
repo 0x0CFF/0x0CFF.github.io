@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    
+    
+        <link rel="stylesheet" type="text/css" href=https://0x0cff.github.io/css/Framework/Class/Grade00/Base.css>
+        <link rel="stylesheet" type="text/css" href=https://0x0cff.github.io/css/Partials/Viewer.css>
+    
+    <link rel="stylesheet" type="text/css" href=https://0x0cff.github.io/css/Framework/Class/Grade01/A.css>
+
+    <link rel="stylesheet" type="text/css" href=https://0x0cff.github.io/css/Framework/Class/Grade02/A0.css>
+
+    <link rel="stylesheet" type="text/css" href=https://0x0cff.github.io/css/Framework/Class/Grade03/A02.css>
+
+    <link rel="stylesheet" type="text/css" href=https://0x0cff.github.io/css/Framework/Object/A02-Posts.css>
+    <link rel="alternate" type="application/atom+xml" title="RSS" href="https://0x0cff.github.io/atom.xml">
+
+    
+    <title>个人文章</title>
+
+    <link rel="shortcut icon" href="#"/>
+</head>
+<body>
+    
+    <div class="app">
+        
+<div class="sidebar">
+    <div class="authorView">
+        <div class="infoCard" onclick="window.open('/','_self')">
+            <img src="../../about/assets/headshot.webp" alt="">
+            <div class="introduce">
+                
+                <div class="name">
+                    <p>0x0CFF</p>
+                </div>
+                <div class="profession">
+                    <p>编程爱好者、宅</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dataView">
+        <div class="statistics">
+            <div class="item days">
+                <div class="data" id="dValue"></div>
+                <div class="label" id="startDate" startDate="2023-01-01T00:00:00.00+08:00">Days</div>
+            </div>
+            <div class="item contents">
+                <div class="data"></div>
+                <div class="label">Contents</div>
+            </div>
+            <div class="item friends">
+                
+                <div class="data">3</div>
+                <div class="label">Friends</div>
+            </div>
+        </div>
+        <div class="hotmap">
+            <div class="background">
+                <div class="pointsBar"></div>
+                <div class="monthsBar"></div>
+            </div>
+        </div>
+        <div class="date" style="display:none;">
+            <!-- <div class="pointDate">2023/01/01</div>
+            <div class="pointDate">2023/01/02</div> -->
+            
+                
+                
+                    <div class="pointDate">2024&#x2F;12&#x2F;13</div>
+                
+                    <div class="pointDate">2024&#x2F;12&#x2F;12</div>
+                
+                    <div class="pointDate">2024&#x2F;12&#x2F;11</div>
+                
+                    <div class="pointDate">2024&#x2F;12&#x2F;10</div>
+                
+                    <div class="pointDate">2024&#x2F;12&#x2F;09</div>
+                
+                    <div class="pointDate">2024&#x2F;12&#x2F;09</div>
+                
+                    <div class="pointDate">2024&#x2F;12&#x2F;09</div>
+                
+                    <div class="pointDate">2024&#x2F;11&#x2F;29</div>
+                
+                    <div class="pointDate">2024&#x2F;11&#x2F;18</div>
+                
+                    <div class="pointDate">2024&#x2F;11&#x2F;09</div>
+                
+                    <div class="pointDate">2024&#x2F;10&#x2F;17</div>
+                
+                    <div class="pointDate">2024&#x2F;10&#x2F;01</div>
+                
+                    <div class="pointDate">2024&#x2F;09&#x2F;24</div>
+                
+                    <div class="pointDate">2024&#x2F;08&#x2F;06</div>
+                
+                    <div class="pointDate">2024&#x2F;07&#x2F;15</div>
+                
+                    <div class="pointDate">2024&#x2F;07&#x2F;07</div>
+                
+                    <div class="pointDate">2024&#x2F;07&#x2F;07</div>
+                
+                    <div class="pointDate">2024&#x2F;04&#x2F;23</div>
+                
+                    <div class="pointDate">2023&#x2F;08&#x2F;31</div>
+                
+                    <div class="pointDate">2023&#x2F;08&#x2F;27</div>
+                
+                    <div class="pointDate">2023&#x2F;08&#x2F;17</div>
+                
+                    <div class="pointDate">2023&#x2F;08&#x2F;15</div>
+                
+                    <div class="pointDate">2023&#x2F;07&#x2F;12</div>
+                
+                    <div class="pointDate">2023&#x2F;03&#x2F;05</div>
+                
+                    <div class="pointDate">2023&#x2F;02&#x2F;09</div>
+                
+                    <div class="pointDate">2023&#x2F;01&#x2F;30</div>
+                
+                    <div class="pointDate">2023&#x2F;01&#x2F;22</div>
+                
+                    <div class="pointDate">2023&#x2F;01&#x2F;18</div>
+                
+                    <div class="pointDate">2023&#x2F;01&#x2F;14</div>
+                
+                    <div class="pointDate">2023&#x2F;01&#x2F;06</div>
+                
+                    <div class="pointDate">2023&#x2F;01&#x2F;01</div>
+                
+                    <div class="pointDate">2022&#x2F;12&#x2F;04</div>
+                
+                    <div class="pointDate">2022&#x2F;11&#x2F;20</div>
+                
+                    <div class="pointDate">2022&#x2F;09&#x2F;26</div>
+                
+                    <div class="pointDate">2022&#x2F;09&#x2F;25</div>
+                
+                    <div class="pointDate">1997&#x2F;08&#x2F;06</div>
+                
+            
+
+            
+                
+                
+            
+
+            
+
+            
+        </div>
+    </div>
+    <div class="menuView">
+        
+            <div class="menu creation">
+                <div class="label" onclick="shrinkOptions(this)">
+                    <label for="">创作内容</label>
+                    <svg weight="12px" height="12px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                </div>
+                <div class="options" style="overflow: hidden; transition: height 0.2s;">
+                    
+                        
+                        <div class="option ramblings" pageTotal=36 onclick="window.open('https://0x0cff.github.io/ramblings/','_self')">
+                            <div class="prefix">
+                                <svg weight="24px" height="24px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
+                                </svg>
+                                <p>日常随笔</p>
+                            </div>
+                            <div class="amount">36</div>
+                        </div>
+                    
+                    
+                        
+                        <div class="option posts" pageTotal=0 onclick="window.open('https://0x0cff.github.io/posts/','_self')">
+                            <div class="prefix">
+                                <svg weight="24px" height="24px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+                                </svg>
+                                <p>个人文章</p>
+                            </div>
+                            <div class="amount">0</div>
+                        </div>
+                    
+                    
+                    
+                </div>
+            </div>
+        
+        
+        <div class="menu other">
+            <div class="label" onclick="shrinkOptions(this)">
+                <label for="">更多内容</label>
+                <svg weight="12px" height="12px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>
+            </div>
+            <div class="options" style="overflow: hidden; transition: height 0.2s;">
+                <div class="option friends" onclick="window.open('https://0x0cff.github.io/friends/','_self')">
+                    <div class="prefix">
+                        <svg weight="24px" height="24px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                          <path stroke-linecap="round" d="M16.5 12a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 10-2.636 6.364M16.5 12V8.25" />
+                        </svg>
+                        <p>友情链接</p>
+                    </div>
+                </div>
+                <div class="option about" onclick="window.open('https://0x0cff.github.io/about/','_self')">
+                    <div class="prefix">
+                        <svg weight="24px" height="24px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z" />
+                        </svg>
+                        <p>关于本人</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="separator"></div>
+    <div class="iconView">
+        <div class="icon" onclick="window.open('/','_self')">
+            <svg weight="24px" height="24px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"></path>
+            </svg>
+        </div>
+        <div class="icon" onclick="alert('该功能正在开发中')">
+            <svg weight="24px" height="24px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z"></path>
+            </svg>
+        </div>
+    </div>
+</div>
+
+        
+    
+    
+
+    <div class="main">
+        <div class="container">
+            
+<div class="navbar">
+    <div class="left">
+        <div class="label" onclick="showSidebarDrawer()">
+            <svg weight="24px" height="24px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12H12m-8.25 5.25h16.5" />
+            </svg>
+            <p>个人文章</p>
+        </div>
+    </div>
+    <div class="right">
+        <div class="filterBtnArray">
+            <div class="filterBtn">
+                <div class="button">
+                    <div class="buttonLabel">
+                        <svg weight="16px" height="16px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9.776c.112-.017.227-.026.344-.026h15.812c.117 0 .232.009.344.026m-16.5 0a2.25 2.25 0 00-1.883 2.542l.857 6a2.25 2.25 0 002.227 1.932H19.05a2.25 2.25 0 002.227-1.932l.857-6a2.25 2.25 0 00-1.883-2.542m-16.5 0V6A2.25 2.25 0 016 3.75h3.879a1.5 1.5 0 011.06.44l2.122 2.12a1.5 1.5 0 001.06.44H18A2.25 2.25 0 0120.25 9v.776" />
+                        </svg>
+                        <div class="textLabel">
+                            全部文章
+                        </div>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </div>
+            </div>
+        </div>
+        <div class="filterMenuArray">
+            <div class="mask">
+            </div>
+            <div class="filterMenu">
+                <div class="option">
+                    <div class="prefix">
+                        <svg weight="20px" height="20px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9.776c.112-.017.227-.026.344-.026h15.812c.117 0 .232.009.344.026m-16.5 0a2.25 2.25 0 00-1.883 2.542l.857 6a2.25 2.25 0 002.227 1.932H19.05a2.25 2.25 0 002.227-1.932l.857-6a2.25 2.25 0 00-1.883-2.542m-16.5 0V6A2.25 2.25 0 016 3.75h3.879a1.5 1.5 0 011.06.44l2.122 2.12a1.5 1.5 0 001.06.44H18A2.25 2.25 0 0120.25 9v.776" />
+                        </svg>
+                        <p>全部文章</p>
+                    </div>
+                    <div class="amount">
+                        共 0 篇
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+<div class="content">
+    
+        <div class="emptyCard">
+    <div class="emptyStatus">
+        <svg weight="128px" height="128px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 13.5h3.86a2.25 2.25 0 012.012 1.244l.256.512a2.25 2.25 0 002.013 1.244h3.218a2.25 2.25 0 002.013-1.244l.256-.512a2.25 2.25 0 012.013-1.244h3.859m-19.5.338V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 00-2.15-1.588H6.911a2.25 2.25 0 00-2.15 1.588L2.35 13.177a2.25 2.25 0 00-.1.661z" />
+        </svg>
+        <p>Empty</p>
+    </div>
+</div>
+
+    
+</div>
+
+            
+<div class="column">
+    <div class="stickybar">
+        
+        <div class="notice">
+            <div class="label">
+                <h4>RSS / Atom 订阅</h4>
+            </div>
+            <div class="explain">
+                <div class="">
+                    <p>本页面文章支持 RSS / Atom 订阅，点击下方按钮可获取 XML 文件链接</p>
+                </div>
+            </div>
+            <div class="rss btn" onclick="window.open('/atom.xml')">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg>
+                <p>RSS</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+        <div class="footer">
+    <!-- 版权信息 -->
+    <div class="copyright">
+        <p>© 2022-2025 0x0CFF</p>
+    </div>
+    <!-- 驱动信息 -->
+    <div class="powered">
+        <p>
+            Powered by <a href="https://www.getzola.org/" target="_blank">Zola</a> & <a href="https://www.getzola.org/" target="_blank">Echo Theme</a>
+        </p>
+    </div>
+</div>
+
+    </div>
+
+        <div class="widget">
+            
+    
+    <div class="stickyBtn">
+    <div class="scrollTop btn" id="scrollTopBtn" onclick="smoothScrollTop()">
+        <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75" />
+        </svg>
+    </div>
+</div>
+
+<script type="text/javascript">
+    // 只有向下滚动超过 20px 后才会显示按钮, 其他情况按钮隐藏
+    window.onscroll = function() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("scrollTopBtn").style.display = "flex";
+          // console.log("显示按钮");
+        } else {
+          document.getElementById("scrollTopBtn").style.display = "none";
+        }
+    };
+
+    // 平滑回滚到页面顶部
+    function smoothScrollTop(){
+        scrollTo(0,0);
+        // var timer = null;
+        // cancelAnimationFrame(timer);
+        // timer = requestAnimationFrame(function fn(){
+        //     var oTop = document.body.scrollTop || document.documentElement.scrollTop;
+        //     if(oTop > 0){
+        //         document.body.scrollTop = document.documentElement.scrollTop = oTop - 640;
+        //         timer = requestAnimationFrame(fn);
+        //     }else{
+        //         cancelAnimationFrame(timer);
+        //     }
+        // });
+    }
+</script>
+
+    <div class="sidebarDrawerBackdrop" onclick="hideSidebarDrawer()"></div>
+
+
+        </div>
+    </div>
+
+    
+    
+    
+    
+    
+        <script type="text/javascript" src="/js/Partials/jquery-3.6.1.min.js"></script>
+        <script type="text/javascript" src="/js/Partials/lazyImage.js"></script>
+        <script type="text/javascript" src="/js/Partials/viewer.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+        <script type="text/javascript">
+            // 获取所有pre下的span元素
+            const spans = document.querySelectorAll('pre span');
+
+            // 遍历所有span元素
+            for (let i = 0; i < spans.length; i++) {
+                const span = spans[i];
+
+                // 使用正则表达式匹配以#或//开头的内容
+                const pattern = /^#|\/\//;
+                if (pattern.test(span.textContent)) {
+
+                    // 如果匹配成功，设置内联样式
+                    span.style.color = '#808080';
+                }
+            }
+        </script>
+        <!-- <script type="text/javascript">
+            const tables = document.querySelectorAll('table');
+
+            // 遍历所有表格
+            tables.forEach(table => {
+                // 创建一个容器元素
+                const container = document.createElement('div');
+
+                // 将容器元素插入到表格前面
+                table.parentNode.insertBefore(container, table);
+
+                // 将表格移动到容器元素中
+                container.appendChild(table);
+                container.setAttribute('id','tableBox')
+                // 在容器元素上应用overflow-x: scroll属性
+                // container.style.overflowX = 'scroll';
+                // container.style.width = '300px';
+            });
+        </script> -->
+    
+    <script type="text/javascript" src="/js/Framework/Class/Grade01/A/sidebarDrawer.js"></script>
+    <script type="text/javascript" src="/js/Framework/Class/Grade01/A/shrinkOptions.js"></script>
+
+    <script type="text/javascript" src="/js/Framework/Class/Grade02/A0/dataView.js"></script>
+    <script type="text/javascript" src="/js/Framework/Class/Grade02/A0/days.js"></script>
+    <script type="text/javascript" src="/js/Framework/Class/Grade02/A0/contents.js"></script>
+
+
+    <script type="text/javascript" src="/js/Framework/Object/A02-Posts/filterBtn.js"></script>
+    <script type="text/javascript" src="/js/Framework/Object/A02-Posts/statistic.js"></script>
+
+</body>
+</html>

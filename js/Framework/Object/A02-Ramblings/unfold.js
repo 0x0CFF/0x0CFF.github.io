@@ -3,8 +3,8 @@ function collapseCard(){
     for (var i = 0; i < card.length; i++) {
         postContent = card[i].getElementsByClassName("postContent")[0];
         unfold = card[i].getElementsByClassName("unfold")[0];
-        if (postContent.clientHeight > 120){
-            postContent.style.height = "120px";
+        if (postContent.clientHeight > 500){
+            postContent.style.height = "500px";
             unfold.style.display = "flex";
         }
     }
@@ -29,14 +29,14 @@ function scrollCollapseCard() {
 
             const bound = postContent.getBoundingClientRect(); // 获取位置相关参数信息
 
-            if(bound.top <= 0 && postContent.clientHeight >= 120) {
+            if(bound.top <= 0 && postContent.clientHeight >= 500) {
 
                 // postContent.style.height = `${postContentHeight + bound.top}px`;
                 unfold.style.display = "flex";
             }
             if(bound.top >= clientHeight) {
-                if (postContent.clientHeight > 120){
-                    postContent.style.height = "120px";
+                if (postContent.clientHeight > 500){
+                    postContent.style.height = "500px";
                     unfold.style.display = "flex";
                 }
             }

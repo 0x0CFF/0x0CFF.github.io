@@ -5,7 +5,7 @@ function checkBox() {
     $("li").find("input").parent().css({"display":"flex", "gap":"12px", "list-style-type":"none"})
 }
 
-// 处理 Markdown 表格
+// 处理 Markdown 代码块
 function code() {
     // 计算并设置表格宽度
     var width = $(".markdown").width();
@@ -31,7 +31,7 @@ checkBox();
 //	获取所有的 table 表格，添加外层 div
 var postContent = document.getElementsByClassName("postContent")[0];
 let tables = postContent.getElementsByTagName('table');
-//	如果table存在于当前界面就执行接下的操作
+//	如果 table 存在于当前界面就执行接下的操作
 if (tables) {
     for (var i = 0; i < tables.length; i++) {
         // console.log(tables[i]);
